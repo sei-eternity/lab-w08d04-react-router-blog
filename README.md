@@ -30,7 +30,93 @@ Task:
 - Create a navigation menu of list items that Route to each page.
   - These pages don't need to have much content — just the header at the top saying what the page is and a paragraph description of your choosing.
 
-_Fun Note:_ There's no reason you can't change the CSS, if you'd like! The CSS file that you'll change is `App.css`. If you'd like, you can grab ours [here](https://git.generalassemb.ly/education-product/React-Exercise-Solutions/blob/master/projects/project-04-router/solution-code/src/App.css).
+_Fun Note:_ There's no reason you can't change the CSS, if you'd like! The CSS file that you'll change is `App.css`. If you'd like, you can grab ours below:
+
+
+<details>
+  <summary>App.css</summary>
+
+  ```css
+  @import url('https://fonts.googleapis.com/css?family=Spectral:500,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,600i');
+
+a {
+  margin: 20px 30px 0px 0px;
+  font-family: "Spectral", serif;
+  color: blue;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #002F2F;
+  font-family: "Raleway", sans-serif;
+}
+
+li {
+  font-style: italic;
+}
+
+ol {
+  font-weight: bold;
+}
+
+body {
+  background: #EFECCA;
+}
+
+h1 {
+  font-size: 26px;
+  color: #046380;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: "Spectral", serif;
+}
+
+h2 {
+  font-size: 24px;
+  color: #046380;
+  text-align: center;
+  font-family: "Spectral", serif;
+}
+
+h3 {
+  font-size: 22px;
+  color: #046380;
+  text-align: center;
+  font-family: "Spectral", serif;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+```
+
+</details>
  - Thought exercise: Why is that the only CSS file you need to change?
 
 **Hint**: You'll need multiple `.js` files
