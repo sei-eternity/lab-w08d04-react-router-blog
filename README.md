@@ -148,4 +148,4 @@ h3 {
 
 Your solution should look something like as follows:
 
-![Solution for Project](assets/router-solution.png)
+![Solution for Project](https://i.imgur.com/Ir76WQx.png)
